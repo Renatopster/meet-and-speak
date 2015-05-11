@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Meet & Speak - Fale sem medo!</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css" type="text/css"/>
+        <script src="js/jquery-1.11.3.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container text-center">
+            <img src="img/logo.png" alt="Meet & Speak" />
+
+            <h1>
+                O Inglês que você aprende na aula não é suficiente?
+            </h1>
+
+            <p class="lead">
+                Encontre sessões de conversação com o Meet & Speak e pratique sem limites!
+            </p>
+
+            <div>
+                <button class="btn btn-lg btn-primary" data-toggle="modal" data-target="#cadastro">Cadastre-se</button> ou <a data-toggle="modal" data-target="#login">efetue login</a>
+            </div>
+            <div>
+                O primeiro mês é gratis!
+            </div>
+        </div>
+        <div class="modal fade" id="cadastro">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title">Cadastre-se</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>Preencha seus dados e aprenda a falar inglês de verdade!</p>
+                        <div class="form-group">
+                            <label for="nome" class="control-label">Nome Completo</label>
+                            <div>
+                                <input type="text" class="form-control" id="nome" name="nome" placeholder="Informe seu nome completo" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="control-label">E-mail</label>
+                            <div>
+                                <input type="text" class="form-control" id="email" name="email" placeholder="Informe seu e-mail" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="senha" class="control-label">Senha</label>
+                            <div>
+                                <input type="password" class="form-control" id="senha" name="senha" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                        <a href="logado.html" class="btn btn-primary">Enviar</a>
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+        
+        <div class="modal fade" id="login">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title">Efetuar Login</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>Informe seus dados de acesso</p>
+                        <div class="form-group">
+                            <label for="email" class="control-label">E-mail</label>
+                            <div>
+                                <input type="text" class="form-control" id="email" name="email" placeholder="Informe seu e-mail" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="senha" class="control-label">Senha</label>
+                            <div>
+                                <input type="password" class="form-control" id="senha" name="senha" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                        <a href="logado.html" class="btn btn-primary">Enviar</a>
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+    </body>
+</html>
