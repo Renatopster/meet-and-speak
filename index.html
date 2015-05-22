@@ -3,9 +3,11 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="favicon.ico"/>
         <title>Meet & Speak - Fale sem medo!</title>
         <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
         <link rel="stylesheet" href="css/bootstrap-theme.min.css" type="text/css"/>
+        <link rel="stylesheet" href="css/app.css" type="text/css"/>
         <script src="js/jquery-1.11.3.js"></script>
         <script src="js/bootstrap.min.js"></script>
     </head>
@@ -22,10 +24,10 @@
             </p>
 
             <div>
-                <button class="btn btn-lg btn-primary" data-toggle="modal" data-target="#cadastro">Cadastre-se</button> ou <a data-toggle="modal" data-target="#login">efetue login</a>
+                <button class="btn btn-lg btn-primary" data-toggle="modal" data-target="#cadastro">Cadastre-se</button> ou <a class="btn btn-default" data-toggle="modal" data-target="#login">efetue login</a>
             </div>
-            <div>
-                O primeiro mês é grátis!
+            <div id="primeiro_mes_gratis">
+                O primeiro mês é gratis!
             </div>
         </div>
         <div class="modal fade" id="cadastro">
@@ -58,12 +60,12 @@
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
-                        <a href="logado.html" class="btn btn-primary">Enviar</a>
+                        <a href="meus-encontros.html" class="btn btn-primary">Enviar</a>
                     </div>
                 </div><!-- /.modal-content -->
             </div><!-- /.modal-dialog -->
         </div><!-- /.modal -->
-        
+
         <div class="modal fade" id="login">
             <div class="modal-dialog">
                 <div class="modal-content">
@@ -88,7 +90,7 @@
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
-                        <a href="logado.html" class="btn btn-primary">Enviar</a>
+                        <a href="meus-encontros.html" class="btn btn-primary">Enviar</a>
                     </div>
                 </div><!-- /.modal-content -->
             </div><!-- /.modal-dialog -->

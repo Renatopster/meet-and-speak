@@ -11,5 +11,13 @@ and open the template in the editor.
 header {margin: 10px 0}
 
 header img.logo {
-      max-width: 262.5px;
+    max-width: 262.5px;
+}
+
+p.lead {
+    padding-top:20px;
+}
+
+#primeiro_mes_gratis {
+    padding-top:10px
 }
