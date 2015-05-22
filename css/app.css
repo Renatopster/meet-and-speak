@@ -18,6 +18,12 @@ p.lead {
     padding-top:20px;
 }
 
+#observacao_90_dias {
+    padding-top:50px;
+    font-size: 12px;
+}
+
 #primeiro_mes_gratis {
-    padding-top:10px
+    padding-top:10px;
+    font-size:16px;
 }
