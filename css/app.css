@@ -13,6 +13,21 @@ header {margin: 10px 0}
 header img.logo {
     max-width: 262.5px;
 }
+
+p.lead {
+    padding-top:20px;
+}
+
+#observacao_90_dias {
+    padding-top:50px;
+    font-size: 12px;
+}
+
+#primeiro_mes_gratis {
+    padding-top:10px;
+    font-size:16px;
+}
+
 .encontros .thumbnail {
     padding: 10px;
 }
@@ -29,16 +44,14 @@ header img.logo {
     padding: 5px 0;
 }
 
-p.lead {
-    padding-top:20px;
+#detalhe_encontro h1 {
+    margin-top: 5px;
 }
 
-#observacao_90_dias {
-    padding-top:50px;
-    font-size: 12px;
-}
-
-#primeiro_mes_gratis {
-    padding-top:10px;
+#detalhe_encontro {
     font-size:16px;
+}
+
+#detalhe_encontro .endereco {
+    font-style: italic;
 }
